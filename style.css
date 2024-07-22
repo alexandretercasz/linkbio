@@ -1,0 +1,98 @@
+body{
+      background-image: linear-gradient(to right , red,purple, blue);
+      font: normal 20pt Arial;
+    }
+    .btn-links{
+      position: relative;
+      background-image: linear-gradient(to right ,#BF0449,#5503A6);
+      width: 300px;
+      border-radius: 12px;
+      box-shadow: 5px 5px 5px 5px;
+      padding: 20px;
+      margin: auto;
+      margin-top: 1em;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  }
+a:link, a:visited {
+   background-color: red;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 15px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  a:hover, a:active {
+    transition: 0.5s;
+    background-color: blue;
+    color: white;
+  }
+  h1{
+    text-align: center;
+    color: #fff;
+    font-family: monospace;
+    text-shadow: 5px 5px 0px black;
+  }
+  .Icone{
+    margin: auto;
+    width: 250px;
+  }
+  img{
+    width: 250px;
+    border-radius: 20cm;
+  } 
+  canvas {
+    display: block;
+    
+  } /* ---- particles.js container ---- */
+  #particles-js {
+    position: absolute;
+    width: 99%;
+    height: 95%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  } /* ---- stats.js ---- */
+  .count-particles {
+    background: #000022;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 80px;
+    color: #13e8e9;
+    font-size: 0.8em;
+    text-align: left;
+    text-indent: 4px;
+    line-height: 14px;
+    padding-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+  }
+  .js-count-particles {
+    font-size: 1.1em;
+  }
+  #stats,
+  .count-particles {
+   
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  #stats {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+  }
+  .count-particles {
+    border-radius: 0 0 3px 3px;
+  }
+button{
+  background-color: red;
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 15px;
+  padding: 15px 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
