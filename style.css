@@ -41,7 +41,7 @@ a:link, a:visited {
   }
   img{
     width: 250px;
-    border-radius: 20cm;
+    border-radius: 15px;
   } 
   canvas {
     display: block;
