@@ -43,6 +43,7 @@ a:link, a:visited {
     position: relative;
     width: 250px;
     border-radius: 15px;
+    box-shadow: 4px 2px 2px 4px;    
   } 
   canvas {
     display: block;
